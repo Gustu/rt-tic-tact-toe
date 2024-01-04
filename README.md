@@ -2,6 +2,8 @@
 
 Tic Tac Toe game that allows you to play with other players.
 
+<img width="1680" alt="image" src="https://github.com/Gustu/rt-tic-tact-toe/assets/84923/5ea75723-962c-4500-840e-52006c5f2a27">
+
 ## Usage
 
 ### Backend
