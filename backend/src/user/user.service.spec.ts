@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UserService } from './user.service';
 import { getRepositoryToken } from '@nestjs/typeorm';
-import { UserEntity } from '../db/user.entity';
+import { UserEntity } from '../entities/user.entity';
 import { JwtService } from '@nestjs/jwt';
 import { Repository } from 'typeorm';
 import { BadRequestException } from '@nestjs/common';

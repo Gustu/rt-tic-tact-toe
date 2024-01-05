@@ -4,7 +4,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { IsNull, Not, Repository } from 'typeorm';
-import { GameEntity } from '../db/game.entity';
+import { GameEntity } from '../entities/game.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Board, EmptyCell, GameResult, GameState, PlayerMove } from './types';
 import { range } from 'lodash';
