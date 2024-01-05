@@ -11,7 +11,7 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: './entities/mydatabase.sqlite',
+      database: './db/mydatabase.sqlite',
       entities: [UserEntity, GameEntity],
       synchronize: true, // Set to false in production
     }),
